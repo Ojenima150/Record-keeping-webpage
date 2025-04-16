@@ -1,3 +1,11 @@
+on this part it just a note which we follow in other  to create the database for the first time before working on a real word likly install the requirements.txt first
+under here,are the requirements.txt format to install.
+========
+Flask==3.0.0
+flask_sqlalchemy==3.1.1
+SQLAlchemy==2.0.25
+=====================
+
 import sqlite3
 
 db = sqlite3.connect("instance/books.db")
